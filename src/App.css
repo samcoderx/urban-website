@@ -32,3 +32,12 @@ a{
   text-decoration: none;
   color: #000000;
 }
+
+.ModelLists ul{ 
+  list-style: none;
+  text-align: right;
+}
+
+.social ul{
+  list-style: none;
+}
