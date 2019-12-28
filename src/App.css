@@ -70,3 +70,86 @@ a{
   list-style: none;
 }
 
+/* Intro Section  */
+
+
+.Intro{
+  display: grid;
+  grid-template-columns: 540px auto;
+}
+
+.ModelLists{
+  display: flex;
+}
+
+.Heros{
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.small-title{
+  display: flex;
+}
+
+.number::after{
+  content: ' ---- ';
+}
+
+.title, .title-small{
+  text-align: left;
+}
+.title{
+  font-size: 45px;
+}
+.title-small{
+  color: rgb(219, 18, 18);
+}
+
+
+.discover{
+  border-bottom: solid 3px #000000;
+}
+
+
+
+
+
+/* Model Lists */
+
+.small-menu{
+  display: flex;
+  align-content: center;
+}
+.small-menu ul{
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.noActiveSmall a{
+  color: gray;
+}
+
+.activeSmall{
+  border-right: solid 3px rgb(218, 29, 29);
+}
+
+.social img{
+  width: 20px;
+  
+}
+
+.social{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: end;
+}
+
+
+
