@@ -8,7 +8,7 @@ import logo from  '../../assets/logo.png'
 
 const NavBar = () => (
     <div className="navBar">
-        <span><img src={logo} alt="Logo"/></span>
+        <span className="logoUrban"><img src={logo} alt="Logo"/></span>
         <NavMenu/>
         <NavShop/>
     </div>
