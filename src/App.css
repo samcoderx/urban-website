@@ -5,6 +5,7 @@ body{
 }
 
 .App {
+  /* max-width: 1200px; */
  
 }
 
@@ -93,9 +94,20 @@ a{
 .small-title{
   display: flex;
 }
-
+.number{
+  padding-right: 77px;
+  color: rgb(160, 23, 23);
+  position: relative;
+}
 .number::after{
-  content: ' ---- ';
+  content: "";
+  background-color: rgb(160, 23, 23);
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 40px;
+  top: 10px;
+  left: 36px;
 }
 
 .title, .title-small{
@@ -103,14 +115,16 @@ a{
 }
 .title{
   font-size: 45px;
+  padding-left: 100px;
 }
 .title-small{
-  color: rgb(219, 18, 18);
+  color:rgb(160, 23, 23);
 }
 
 
 .discover{
   border-bottom: solid 3px #000000;
+  margin-left: 100px;
 }
 
 
@@ -136,6 +150,7 @@ a{
 }
 
 .activeSmall{
+  padding-right: 5px;
   border-right: solid 3px rgb(218, 29, 29);
 }
 
@@ -144,11 +159,21 @@ a{
   
 }
 
+.socialMediaIcon{
+  
+}
+
 .social{
   display: flex;
-
+  position: absolute;
+  /* left:  20px; */
   flex-direction: column;
-  justify-content: end;
+  align-content: end;
+  padding-left: 20px;
+}
+
+.social ul{
+  padding-left: 0;
 }
 
 

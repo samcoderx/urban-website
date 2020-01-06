@@ -5,12 +5,8 @@ import ModelLists from './ModelLists'
 
 const Intro = () => (
     <div className="Intro">
-        <Heros/>
-        <ModelLists/>
-
-        {/* Social Network */}
-
-       
+            <Heros/>
+            <ModelLists/>
     </div>
 )
 
